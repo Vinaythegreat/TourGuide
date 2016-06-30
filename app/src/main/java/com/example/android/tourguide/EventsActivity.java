@@ -32,10 +32,10 @@ public class EventsActivity extends AppCompatActivity {
 
         // Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("Located at east street","Circus",0));
-        words.add(new Word("Located at North of the city","Exhibition",0));
-        words.add(new Word("North East of the city","Angry Birds Movie",0));
-        words.add(new Word("Center of the city","AR Rahman live concert",0));
+        words.add(new Word(getString(R.string.circus_location), getString(R.string.circus), 0));
+        words.add(new Word(getString(R.string.exhibition_location), getString(R.string.exhibition), 0));
+        words.add(new Word(getString(R.string.theater_location), getString(R.string.theater), 0));
+        words.add(new Word(getString(R.string.concert_location), getString(R.string.concert), 0));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

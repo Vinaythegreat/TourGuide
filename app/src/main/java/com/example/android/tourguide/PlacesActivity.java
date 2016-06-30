@@ -32,10 +32,10 @@ public class PlacesActivity extends AppCompatActivity {
 
         // Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("Located at east street","Cuddalore",0));
-        words.add(new Word("Located at North of the city","Pondicherry",0));
-        words.add(new Word("North East of the city","Chennai",0));
-        words.add(new Word("Center of the city","Thanoor",0));
+        words.add(new Word(getString(R.string.chennai_location), getString(R.string.chennai), 0));
+        words.add(new Word(getString(R.string.cuddalore_location), getString(R.string.cuddalore), 0));
+        words.add(new Word(getString(R.string.pondy_location), getString(R.string.pondy), 0));
+        words.add(new Word(getString(R.string.thanoor_location), getString(R.string.thanoor), 0));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

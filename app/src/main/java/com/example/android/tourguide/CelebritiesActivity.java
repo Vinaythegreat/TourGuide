@@ -32,10 +32,10 @@ public class CelebritiesActivity extends AppCompatActivity {
 
         // Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("Located at east street","Rajinikanth",R.drawable.family_father, R.raw.family_father));
-        words.add(new Word("Located at North of the city","Madonna", R.drawable.family_mother, R.raw.family_mother));
-        words.add(new Word("North East of the city","Eminem", R.drawable.family_son, R.raw.family_son));
-        words.add(new Word("Center of the city","Shakira",  R.drawable.family_daughter, R.raw.family_daughter));
+        words.add(new Word(getString(R.string.rajini), getString(R.string.rajini_location), R.drawable.family_father, R.raw.family_father));
+        words.add(new Word(getString(R.string.madonna), getString(R.string.madonna_location), R.drawable.family_mother, R.raw.family_mother));
+        words.add(new Word(getString(R.string.eminem), getString(R.string.madonna_location), R.drawable.family_son, R.raw.family_son));
+        words.add(new Word(getString(R.string.shakira), getString(R.string.shakira_location), R.drawable.family_daughter, R.raw.family_daughter));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

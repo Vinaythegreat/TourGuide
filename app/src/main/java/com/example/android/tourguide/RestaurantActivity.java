@@ -32,10 +32,10 @@ public class RestaurantActivity extends AppCompatActivity {
         // Create a list of words
         //Red indicated Non Veg and green indicates Vegetarian hotels
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("Non Vegetarian", "Muniyandi Vilas", R.drawable.color_red, 0));
-        words.add(new Word("Vegetarian", "Vasantha Bhavan", R.drawable.color_green, 0));
-        words.add(new Word("Vegetarian", "Anadha Bhavan", R.drawable.color_green, 0));
-        words.add(new Word("Non Vegetarian", "KFC", R.drawable.color_red, 0));
+        words.add(new Word(getString(R.string.non_veg), getString(R.string.muniyandi), R.drawable.color_red, 0));
+        words.add(new Word(getString(R.string.veg), getString(R.string.vasantha_bhavan), R.drawable.color_green, 0));
+        words.add(new Word(getString(R.string.veg), getString(R.string.ananada_bhavan), R.drawable.color_green, 0));
+        words.add(new Word(getString(R.string.non_veg), getString(R.string.kfc), R.drawable.color_red, 0));
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
         WordAdapter adapter = new WordAdapter(this, words, R.color.category_restaurants);
