@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="category_restaurants">Restaurants</string>
+    <string name="category_celebrities">Celebrities</string>
+    <string name="category_places">Places</string>
+    <string name="category_events">Events</string>
+    <string name="title_activity_chennai">ChennaiActivity</string>
+    <string name="title_activity_cuddalore">CuddaloreActivity</string>
+</resources>
